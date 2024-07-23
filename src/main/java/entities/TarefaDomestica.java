@@ -29,4 +29,5 @@ public class TarefaDomestica extends Tarefa{
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
+
 }

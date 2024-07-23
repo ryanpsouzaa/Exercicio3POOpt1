@@ -6,7 +6,6 @@ public class TarefaTrabalho extends Tarefa{
     private String empresa;
     private String cargo;
     private String encargo;
-    private String identificador;
 
     public TarefaTrabalho(String nome, LocalDate dataInicio, boolean status, LocalDate dataFim, String empresa, String cargo, String encargo) {
         super(nome, dataInicio, status, dataFim);
@@ -39,4 +38,5 @@ public class TarefaTrabalho extends Tarefa{
     public void setEncargo(String encargo) {
         this.encargo = encargo;
     }
+
 }
